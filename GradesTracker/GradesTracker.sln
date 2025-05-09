@@ -3,8 +3,54 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.12.35707.178 d17.12
 MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "GradesTracker.Application", "GradesTracker.Application", "{DCD724EB-74FD-4E6F-BCC4-18518A26E011}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "GradesTracker.WebApp", "GradesTracker.WebApp", "{FF4FECCF-B543-4495-AD5D-ED9B9FA7D0BF}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "GradesTracker.Domain", "GradesTracker.Domain", "{0E4B6A92-0597-4693-BFF1-7BECADEF746B}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "GradesTracker.Persistance", "GradesTracker.Persistance", "{16B1B38E-A334-408D-ACDE-AC07E4DFF0EA}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "GradesTracker.API", "GradesTracker.API", "{1DE0350B-DAA1-4915-9E9C-9BA5963B49A0}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GradesTracker.Domain", "GradesTracker.Domain\GradesTracker.Domain.csproj", "{9AE58FA6-9DC1-4AAC-9145-A8E0406B270C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GradesTracker.Application", "GradesTracker.Application\GradesTracker.Application.csproj", "{420A7FEB-5C8C-4012-A2D8-8E7C33B557D4}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GradesTracker.API", "GradesTracker.API\GradesTracker.API.csproj", "{FA271F32-1CEC-4D0B-BDB6-254B578BAB1D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GradesTracker.Persistance", "GradesTracker.Persistance\GradesTracker.Persistance.csproj", "{B8945FF7-1920-4922-A2DC-C3D3D7E09CF6}"
+EndProject
 Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{9AE58FA6-9DC1-4AAC-9145-A8E0406B270C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9AE58FA6-9DC1-4AAC-9145-A8E0406B270C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9AE58FA6-9DC1-4AAC-9145-A8E0406B270C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9AE58FA6-9DC1-4AAC-9145-A8E0406B270C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{420A7FEB-5C8C-4012-A2D8-8E7C33B557D4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{420A7FEB-5C8C-4012-A2D8-8E7C33B557D4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{420A7FEB-5C8C-4012-A2D8-8E7C33B557D4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{420A7FEB-5C8C-4012-A2D8-8E7C33B557D4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FA271F32-1CEC-4D0B-BDB6-254B578BAB1D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FA271F32-1CEC-4D0B-BDB6-254B578BAB1D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FA271F32-1CEC-4D0B-BDB6-254B578BAB1D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FA271F32-1CEC-4D0B-BDB6-254B578BAB1D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B8945FF7-1920-4922-A2DC-C3D3D7E09CF6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B8945FF7-1920-4922-A2DC-C3D3D7E09CF6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B8945FF7-1920-4922-A2DC-C3D3D7E09CF6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B8945FF7-1920-4922-A2DC-C3D3D7E09CF6}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{9AE58FA6-9DC1-4AAC-9145-A8E0406B270C} = {0E4B6A92-0597-4693-BFF1-7BECADEF746B}
+		{420A7FEB-5C8C-4012-A2D8-8E7C33B557D4} = {DCD724EB-74FD-4E6F-BCC4-18518A26E011}
+		{FA271F32-1CEC-4D0B-BDB6-254B578BAB1D} = {1DE0350B-DAA1-4915-9E9C-9BA5963B49A0}
+		{B8945FF7-1920-4922-A2DC-C3D3D7E09CF6} = {16B1B38E-A334-408D-ACDE-AC07E4DFF0EA}
 	EndGlobalSection
 EndGlobal

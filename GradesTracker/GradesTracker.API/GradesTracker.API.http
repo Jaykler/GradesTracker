@@ -1,0 +1,6 @@
+@GradesTracker.API_HostAddress = http://localhost:5058
+
+GET {{GradesTracker.API_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
